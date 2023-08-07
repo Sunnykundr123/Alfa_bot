@@ -11,7 +11,7 @@ envíame por t.me/fgsupp_bot el *audio + comando* con en el que responderá
 
 ┌─⊷ *AUDIOS* 
 ▢ Bot
-▢ Buenos días
+▢ alive
 ▢ Buenas tardes 
 ▢ Buenas noches
 ▢ Fino señores
