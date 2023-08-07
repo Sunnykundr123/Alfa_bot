@@ -16,6 +16,10 @@ envíame por t.me/fgsupp_bot el *audio + comando* con en el que responderá
 ▢ Buenas noches
 ▢ Fino señores
 ▢ Sad
+▢ alive
+▢ Aa
+▢ Andi
+▢ Ayn
 └──────────────
 `
 
