@@ -5,37 +5,37 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'main': 'ACERCA DE',
-  'game': 'JUEGOS',
-  'econ': 'NIVEL & ECONOMIA',
-  'rg': 'REGISTRO',
+  'main': 'ABOUT',
+  'game': 'GAMES',
+  'econ': 'LEVEL & ECONOMY',
+  'rg': 'RECORD',
   'sticker': 'STICKER',
   'img': 'IMAGEN',
   'maker': 'MAKER',
   'prem': 'PREMIUM',
-  'group': 'GRUPO',
-  'nable': 'EN/DISABLE OPCIONES', 
+  'group': 'GROUP',
+  'nable': 'EN/DISABLE OPTIONS', 
   'nime': 'ANIME',
-  'rnime': 'ANIME REACCION',
-  'dl': 'DESCARGAS',
+  'rnime': 'ANIME REACTION',
+  'dl': 'DOWNLOADS',
   'tools': 'TOOLS',
   'fun': 'FUN',
   'cmd': 'DATABASE',
   'nsfw': 'NSFW +18', 
   'ansfw': 'NSFW ANIME',
   'owner': 'OWNER', 
-  'advanced': 'AVANZADO',
+  'advanced': 'ADVANCED',
 }
 const defaultMenu = {
   before: `
 ◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
-👋🏻 _Hola_ *%name*
-🧿 Nivel : *%level* 
-👥 Usuarios : %totalreg
-📈 Tiempo activo : %muptime
+👋🏻 _Hello_ *%name*
+🧿 Level : *%level* 
+👥 Users : %totalreg
+📈 Active Time: %muptime
 ─────────────
-▢ Crea tu propio bot 
+▢ Create Your Own Bot
 • https://youtu.be/xFqjKN1Qt80
 ▢ Descarga *FGWhatsApp*
 • https://fgmods.epizy.com
@@ -44,7 +44,7 @@ const defaultMenu = {
 Ⓟ = Premium
 ⓓ = Diamantes
 -----  -----  -----  -----  -----
-  ≡ *LISTA DE MENUS*
+  ≡ *MENU LIST*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
