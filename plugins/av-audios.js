@@ -14,7 +14,7 @@ export default handler
 
 
 let audioMsg = {
-  'fino señores': './src/mp3/fino.mp3',
+  'fino señores': './src/mp4/fino.mp4',
   'buenos días': 'https://j.top4top.io/m_26464yyei1.mp3',
   'buenas tardes': 'https://i.top4top.io/m_2646qxac91.mp3',
   'buenas noches': 'https://h.top4top.io/m_26460eg6v1.mp3',
@@ -188,6 +188,6 @@ let audioMsg = {
 "Hacker":"https://i.imgur.com/wF8xr4k.mp4",
 "Hecker":"https://i.imgur.com/wF8xr4k.mp4",
 "Ayo ayo":"https://i.imgur.com/wF8xr4k.mp4",
-"mwonu":"https://i.imgur.com/fkmoBaC.mp4",
+"mwonu":"https://i.imgur.com/fkmoBaC.mp4"
   '@5492622271736|@59172945992': 'https://l.top4top.io/m_2492i4mdu1.mp3'
 }
