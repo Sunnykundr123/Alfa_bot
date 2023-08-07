@@ -9,7 +9,7 @@ conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
       ['⦙☰ Menu 2', '/menu2'],
       ['⌬ Grupos', '/gpdylux']
     ], m)
-conn.sendFile(m.chat, av, 'audio.mp4', null, m, true, { type: 'audioMessage', ptt: true })
+conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
 handler.customPrefix = /^(bot|dylux)$/i
