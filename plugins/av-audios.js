@@ -15,7 +15,7 @@ export default handler
 
 let audioMsg = {
   'fino señores': '.src/mp3',
-  'alive' : 'https://i.imgur.com/e2PKT60.mp4',
+  'alive' : 'https://j.top4top.io/m_26464yyei1.mp3',
 'poda':'https://i.imgur.com/e2PKT60.mp4',
 'lyfe':'https://i.imgur.com/73QMUoC.mp4',
 'sed':'https://i.imgur.com/B71ASsj.mp4',
