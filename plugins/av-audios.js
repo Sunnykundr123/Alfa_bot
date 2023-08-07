@@ -2,7 +2,7 @@
 let handler = m => m
 handler.all = async function (m) {
   for (const message in audioMsg) {
-    if (new RegExp(`^${poda}$`, 'i').test(m.text)) {
+    if (new RegExp(`^${message}$`, 'i').test(m.text)) {
       this.sendFile(m.chat, audioMsg[message], 'audio.mp3', null, m, true)
       break
     }
@@ -15,7 +15,7 @@ export default handler
 
 let audioMsg = {
   'alive' : 'https://j.top4top.io/m_26464yyei1.mp3',
-  'poda':'https://i.imgur.com/e2PKT60.mp4',
+  'Aa':'https://i.imgur.com/e2PKT60.mp4',
   'lyfe':'https://i.imgur.com/73QMUoC.mp4',
   'sed':'https://i.imgur.com/B71ASsj.mp4',
   'raganork' : 'https://i.imgur.com/u5Pp11A.mp4',
