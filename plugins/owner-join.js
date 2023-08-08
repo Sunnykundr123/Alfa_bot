@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn, text, usedPrefix, command, args, participants, isOwner }) => {
 	
-   if (!isOwner) return conn.reply(m.chat, `*Invitar bot a un grupo*\n\nHola @${m.sender.split('@')[0]}\npuedes alquilar el bot para que se una a un grupo`.trim(), m, { mentions: [m.sender] })
+   if (!isOwner) return conn.reply(m.chat, `*Invite bot to a group*\n\nHi @${m.sender.split('@')[0]}\nyou can rent the bot to join a group`.trim(), m, { mentions: [m.sender] })
 	
   let time = global.db.data.users[m.sender].lastjoin + 86400000
   let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
@@ -9,12 +9,12 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
  
   let name = m.sender 
   let [_, code] = text.match(linkRegex) || []
-  if (!args[0]) throw `✳️ Envie el link del Grupo\n\n 📌 Ejemplo:\n *${usedPrefix + command}* <linkwa> <dias>\n\n_el número son los días que el bot estará en el grupo_` 
-  if (!code) throw `✳️ Link inválido`
-  if (!args[1]) throw `📌 Falta el número de días\n\n Ejemplo:\n *${usedPrefix + command}* <linkwa> 2`
-  if (isNaN(args[1])) throw `✳️ Solo número, que representa los días que el bot estará en el grupo!`
+  if (!args[0]) throw `✳️ Send the link of the Group\n\n 📌 Example:\n *${usedPrefix + command}* <linkwa> <days>\n\n_the number is the days the bot will be in the group_` 
+  if (!code) throw `✳️ Link invalid`
+  if (!args[1]) throw `📌 Missing number of days\n\n Example:\n *${usedPrefix + command}* <linkwa> 2`
+  if (isNaN(args[1])) throw `✳️ Number only, representing the days the bot will be in the group!`
   let owbot = global.owner[1] 
-  m.reply(`😎 Espere 3 segundos, me uniré al grupo`)
+  m.reply(`🤩 Wait 3 seconds, I will join the group`)
   await delay(3000)
   try {
   let res = await conn.groupAcceptInvite(code)
