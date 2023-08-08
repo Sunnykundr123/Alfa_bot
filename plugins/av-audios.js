@@ -2,7 +2,7 @@
 let handler = m => m
 handler.all = async function (m) {
   for (const message in audioMsg) {
-    if (new RegExp(`^${message}$`, 'i').test(m.text)) {
+    if (new RegExp(`^${message}$`, 'bot').test(m.text)) {
       this.sendFile(m.chat, audioMsg[message], 'audio.mp3', null, m, true)
       break
     }
