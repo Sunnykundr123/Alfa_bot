@@ -11,8 +11,6 @@ handler.all = async function (m) {
  }
 
 export default handler
-
-
 let audioMsg = {
   'alive' : 'https://j.top4top.io/m_26464yyei1.mp3',
   'Aa':'https://s17.aconvert.com/convert/p3r68-cdx67/4nftu-75yik.mp3',
