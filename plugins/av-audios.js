@@ -25,7 +25,7 @@ let audioMsg = {
   'Nanban': 'https://s27.aconvert.com/convert/p3r68-cdx67/ux6u5-id19z.mp3',
   'Bgm': 'https://s19.aconvert.com/convert/p3r68-cdx67/pltnp-d829w.mp3',
   'Love': 'https://s17.aconvert.com/convert/p3r68-cdx67/5wrpd-lgwhh.mp3',
-  '❤️': 'https://s27.aconvert.com/convert/p3r68-cdx67/drc17-u9rn7.mp3',
+  '❤️':'https://s27.aconvert.com/convert/p3r68-cdx67/drc17-u9rn7.mp3',
   'bot': 'https://s21.aconvert.com/convert/p3r68-cdx67/unwpb-4rf3l.mp3'
 }
   
