@@ -20,12 +20,12 @@ let audioMsg = {
   'uyir':'https://s19.aconvert.com/convert/p3r68-cdx67/kfse4-x4ke0.mp3',
   'welcome':'https://s31.aconvert.com/convert/p3r68-cdx67/z5vwl-nospt.mp3',
   'alive':'https://s21.aconvert.com/convert/p3r68-cdx67/l5sx5-zp7sv.mp3',
-  'Alfa': 'https://s19.aconvert.com/convert/p3r68-cdx67/l7plh-dip7n.mp3',
-  'Amma': 'https://s31.aconvert.com/convert/p3r68-cdx67/s8crv-3ct6q.mp3',
-  'Nanban': 'https://s27.aconvert.com/convert/p3r68-cdx67/ux6u5-id19z.mp3',
-  'Bgm': 'https://s19.aconvert.com/convert/p3r68-cdx67/pltnp-d829w.mp3',
-  'Love': 'https://s17.aconvert.com/convert/p3r68-cdx67/5wrpd-lgwhh.mp3',
+  'Alfa':'https://s19.aconvert.com/convert/p3r68-cdx67/l7plh-dip7n.mp3',
+  'Amma':'https://s31.aconvert.com/convert/p3r68-cdx67/s8crv-3ct6q.mp3',
+  'Nanban':'https://s27.aconvert.com/convert/p3r68-cdx67/ux6u5-id19z.mp3',
+  'Bgm':'https://s19.aconvert.com/convert/p3r68-cdx67/pltnp-d829w.mp3',
+  'Love':'https://s17.aconvert.com/convert/p3r68-cdx67/5wrpd-lgwhh.mp3',
   '❤️':'https://s27.aconvert.com/convert/p3r68-cdx67/drc17-u9rn7.mp3',
-  'bot': 'https://s21.aconvert.com/convert/p3r68-cdx67/unwpb-4rf3l.mp3'
+  'bot':'https://s21.aconvert.com/convert/p3r68-cdx67/unwpb-4rf3l.mp3'
 }
   
