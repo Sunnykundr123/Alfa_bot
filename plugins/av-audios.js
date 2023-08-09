@@ -14,6 +14,8 @@ let audioMsg = {
   'Welcome':'https://s17.aconvert.com/convert/p3r68-cdx67/4nftu-75yik.mp3',
   'alive': 'https://s33.aconvert.com/convert/p3r68-cdx67/cmvrs-f8k1d.mp3',
   'welcome':'https://s31.aconvert.com/convert/p3r68-cdx67/z5vwl-nospt.mp3',
+  'Da':'https://s19.aconvert.com/convert/p3r68-cdx67/j67qm-vl3iw.mp3',
+  'Hi':'https://s17.aconvert.com/convert/p3r68-cdx67/c8whj-9byis.mp3',
   'Alfa': 'https://s19.aconvert.com/convert/p3r68-cdx67/l7plh-dip7n.mp3',
   'Amma': 'https://s31.aconvert.com/convert/p3r68-cdx67/s8crv-3ct6q.mp3',
   'Nanban': 'https://s27.aconvert.com/convert/p3r68-cdx67/ux6u5-id19z.mp3',
