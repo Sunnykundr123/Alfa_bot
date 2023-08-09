@@ -14,12 +14,20 @@ envíame por t.me/fgsupp_bot el *audio + comando* con en el que responderá
 ▢ alive
 ▢ Buenas tardes 
 ▢ Buenas noches
-▢ Fino señores
+▢ uyir
 ▢ Sad
 ▢ alive
 ▢ Aa
 ▢ Andi
-▢ Ayn
+▢ welcome
+▢ ❤️
+▢ Nanban
+▢ Da
+▢ Halo
+▢ bgm
+▢ Alfa
+▢ good morning
+▢ Nanban
 └──────────────
 `
 
