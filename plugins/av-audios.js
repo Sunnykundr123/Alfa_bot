@@ -19,7 +19,6 @@ let audioMsg = {
   'Ayshari': 'https://s31.aconvert.com/convert/p3r68-cdx67/di2kp-jel7l.mp3',
   'Hi': 'https://s17.aconvert.com/convert/p3r68-cdx67/c8whj-9byis.mp3',
   'uyir': 'https://s19.aconvert.com/convert/p3r68-cdx67/kfse4-x4ke0.mp3',
-  'welcome': 'https://s31.aconvert.com/convert/p3r68-cdx67/z5vwl-nospt.mp3',
   'alive': 'https://s21.aconvert.com/convert/p3r68-cdx67/l5sx5-zp7sv.mp3',
   'Alfa': 'https://s19.aconvert.com/convert/p3r68-cdx67/l7plh-dip7n.mp3',
   'Amma': 'https://s31.aconvert.com/convert/p3r68-cdx67/s8crv-3ct6q.mp3',
