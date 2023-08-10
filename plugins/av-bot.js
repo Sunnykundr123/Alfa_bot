@@ -13,7 +13,7 @@ conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(alive|Da)$/i
+handler.customPrefix = /^(alive)$/i
 handler.command = new RegExp
 handler.customPrefix = /^(Da)$/i
 handler.command = new RegExp
