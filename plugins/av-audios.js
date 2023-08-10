@@ -1,4 +1,4 @@
-import fs from 'fs';
+import media from 'media';
 
 let handler = async (m) => m;
 handler.all = async function (m) {
@@ -16,6 +16,6 @@ handler.all = async function (m) {
 export default handler;
 
 let audioMsg = {
-  'fino señores': './src/mp3/fino.mp3',
+  'fino señores': './media',
   // Add more entries here as needed
 };
