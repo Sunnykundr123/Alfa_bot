@@ -4,7 +4,6 @@ let handler = async (m, { conn}) => {
 let name = conn.getName(m.sender)
 let av = `./src/mp3/${pickRandom(["alive"])}.mp3`
       let av = `./src/mp3/${pickRandom(["Da"])}.mp3`
-      let av = `./src/mp3/${pickRandom(["Aa"])}.mp3`
       
 conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
       ['⦙☰ Menu', '/help'],
