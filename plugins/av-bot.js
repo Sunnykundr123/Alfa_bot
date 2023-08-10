@@ -2,9 +2,13 @@ let handler = async (m, { conn}) => {
 
 let name = conn.getName(m.sender)
 let av = `./src/mp3/${pick(["alive"])}.mp3`,
-      let av = `./src/mp3/${pick(["Da"])}.mp3`,
-      let av = `./src/mp3/${pick(["Aa"])}.mp3`
+    
+let name = conn.getName(m.sender)
+let av = `./src/mp3/${pick(["Da"])}.mp3`
 
+let name = conn.getName(m.sender)
+let av = `./src/mp3/${pick(["Aa"])}.mp3`
+      
 conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
       ['⦙☰ Menu', '/help'],
       ['⦙☰ Menu 2', '/menu2'],
