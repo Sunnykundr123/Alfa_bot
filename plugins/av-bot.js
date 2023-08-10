@@ -12,11 +12,11 @@ conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(alive|dylux)$/i
+handler.customPrefix = /^(alive)$/i
 handler.command = new RegExp
 
 export default handler
 
-function pickRandom(list) {
+function pick(list) {
   return list[Math.floor(list.length * Math.random())]
 }
