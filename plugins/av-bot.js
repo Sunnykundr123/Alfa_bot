@@ -17,8 +17,6 @@ handler.customPrefix = /^(alive)$/i
 handler.command = new RegExp
 handler.customPrefix = /^(Da)$/i
 handler.command = new RegExp
-handler.customPrefix = /^(Aa)$/i
-handler.command = new RegExp
 
 export default handler
 
