@@ -2,9 +2,9 @@
 let handler = async (m, { conn}) => {
 
 let name = conn.getName(m.sender)
-let av = `./media/${pick(["alive"])}.mp3`
-      let av = `./media/${pick(["Da"])}.mp3`
-      let av = './media/${pick(["Bye"])}.mp3`
+let av = `./src/mp3/${pick(["alive"])}.mp3`
+      let av = `./src/mp3/${pick(["Da"])}.mp3`
+      let av = `./src/mp3/${pick(["Aa"])}.mp3`
 conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
       ['⦙☰ Menu', '/help'],
       ['⦙☰ Menu 2', '/menu2'],
@@ -17,7 +17,7 @@ handler.customPrefix = /^(alive)$/i
 handler.command = new RegExp
 handler.customPrefix = /^(Da)$/i
 handler.command = new RegExp
-handler.customPrefix = /^(Bye)$/i
+handler.customPrefix = /^(Aa)$/i
 handler.command = new RegExp
 
 export default handler
