@@ -15,8 +15,10 @@ conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', pt
 
 handler.customPrefix = /^(alive)$/i
 handler.command = new RegExp
+
 handler.customPrefix = /^(Da)$/i
 handler.command = new RegExp
+
 handler.customPrefix = /^(Aa)$/i
 handler.command = new RegExp
 
