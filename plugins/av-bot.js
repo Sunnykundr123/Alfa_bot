@@ -23,5 +23,5 @@ handler.command = new RegExp
 export default handler
 
 function pick(list) {
-  return list[Math.floor(list.length * Math())]
+  return list[Math.floor(list.length * Math.random())]
 }
