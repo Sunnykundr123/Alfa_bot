@@ -3,6 +3,7 @@ let handler = async (m, { conn}) => {
 
 let name = conn.getName(m.sender)
 let av = `./src/mp3/${pick(["alive", "Da"])}.mp3`
+      let av = `./src/mp3/${pick(["Da"])}.mp3
 
 conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
       ['⦙☰ Menu', '/help'],
@@ -13,6 +14,8 @@ conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', pt
 } 
 
 handler.customPrefix = /^(alive|Da)$/i
+handler.command = new RegExp
+handler.customPrefix = /^(Da)$/i
 handler.command = new RegExp
 
 export default handler
