@@ -1,20 +1,16 @@
 
-let handler = m => m
-handler.all = async function (m) {
-  for (const message in audioMsg) {
-    if (new RegExp(`^${message}$`, 'i').test(m.text)) {
-      this.sendFile(m.chat, audioMsg[message], 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
-      break
-    }
-  }
-  return !0
- }
-
-export default handler
-
-
-let audioMsg = {
-  'fino señores': './src/mp3/fino.mp3',
+var {seconds} = message.quoted.message[Object.keys(message.quoted.message)[0]];
+    if (seconds>120) await message.sendReply(`_Alert: Duration more than 2 mins. This process may fail or take much more time!_`)
+    var savedFile = await message.reply_message.download();
+    ffmpeg(savedFile)
+        .save('./temp/tomp3.mp3')
+        .on('end', async () => {
+            await message.client.sendMessage(message.jid, {
+                audio: fs.readFileSync('./temp/tomp3.mp3'),
+                mimetype: 'audio/mp4',
+                ptt: false
+                  let audioMsg = {
+              'fino señores': './src/mp3/fino.mp3',
   "bgm" : "https://i.imgur.com/iUOGcyF.mp4",
 "poda":"https://i.imgur.com/e2PKT60.mp4",
 "lyfe":"https://i.imgur.com/73QMUoC.mp4",
