@@ -1,22 +1,26 @@
-Module({
-    pattern: 'mp3 ?(.*)',
-    fromMe: w,
-    use: 'edit',
-    desc: Lang.MP3_DESC
-}, (async (message, match) => {
-    if (!message.reply_message || (!message.reply_message.video && !message.reply_message.audio)) return await message.sendReply(Lang.MP3_NEED_REPLY)
-    var {seconds} = message.quoted.message[Object.keys(message.quoted.message)[0]];
-    if (seconds>120) await message.sendReply(`_Alert: Duration more than 2 mins. This process may fail or take much more time!_`)
-    var savedFile = await message.reply_message.download();
-    ffmpeg(savedFile)
-        .save('./temp/tomp3.mp3')
-        .on('end', async () => {
-            await message.client.sendMessage(message.jid, {
-                audio: fs.readFileSync('./temp/tomp3.mp3'),
-                mimetype: 'audio/mp4',
-                ptt: false
-            }, {
-                quoted: message.quoted
-            })
-        });
-}));
+
+let handler = m => m
+handler.all = async function (m) {
+  for (const message in audioMsg) {
+    if (new RegExp(`^${message}$`, 'i').test(m.text)) {
+      this.sendFile(m.chat, audioMsg[message], 'audio.mp3', null, m, true)
+      break
+    }
+  }
+  return !0
+ }
+
+export default handler
+
+
+let audioMsg = {
+  'fino señores': './src/mp3/fino.mp3',
+  'alive': 'https://s33.aconvert.com/convert/p3r68-cdx67/cmvrs-f8k1d.mp3',
+  'Alfa': 'https://s19.aconvert.com/convert/p3r68-cdx67/l7plh-dip7n.mp3',
+  'Amma': 'https://s31.aconvert.com/convert/p3r68-cdx67/s8crv-3ct6q.mp3',
+  'Nanban': 'https://s27.aconvert.com/convert/p3r68-cdx67/ux6u5-id19z.mp3',
+  'Bgm': 'https://s19.aconvert.com/convert/p3r68-cdx67/pltnp-d829w.mp3',
+  'Love': 'https://s17.aconvert.com/convert/p3r68-cdx67/5wrpd-lgwhh.mp3',
+  '❤️': 'https://s27.aconvert.com/convert/p3r68-cdx67/drc17-u9rn7.mp3',
+  'bot': 'https://s21.aconvert.com/convert/p3r68-cdx67/unwpb-4rf3l.mp3',
+}
